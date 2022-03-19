@@ -3,7 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-driver = webdriver.Chrome(r'C:/SeleniumDrivers/chromedriver.exe')
+
+os.environ['PATH'] += os.pathsep + r'C:/SeleniumDrivers'
+driver = webdriver.Chrome()
 driver.implicitly_wait(30)
 driver.get('url qualquer')
 # espera x segundos até encontrar o elemento ou realizar a ação
