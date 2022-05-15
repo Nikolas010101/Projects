@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Projects/static/css/main.dda24b27.css",
-    "main.js": "/Projects/static/js/main.50097915.js",
-    "static/media/foto.jpg": "/Projects/static/media/foto.56b347d4edaedc6afe63.jpg",
-    "static/media/GitHub Icon.svg": "/Projects/static/media/GitHub Icon.c2b6253f7bb35f6f22c0cfd50e225263.svg",
-    "static/media/linkedin.svg": "/Projects/static/media/linkedin.d342c2bcb143b629ca45894d346d8897.svg",
-    "static/media/Mail.svg": "/Projects/static/media/Mail.bade1ffa20975c1ae1287cd814d78ade.svg",
-    "index.html": "/Projects/index.html",
-    "main.dda24b27.css.map": "/Projects/static/css/main.dda24b27.css.map",
-    "main.50097915.js.map": "/Projects/static/js/main.50097915.js.map"
+    "main.css": "/Projects/resume/static/css/main.dda24b27.css",
+    "main.js": "/Projects/resume/static/js/main.09ebd50d.js",
+    "static/media/foto.jpg": "/Projects/resume/static/media/foto.56b347d4edaedc6afe63.jpg",
+    "static/media/GitHub Icon.svg": "/Projects/resume/static/media/GitHub Icon.c2b6253f7bb35f6f22c0cfd50e225263.svg",
+    "static/media/linkedin.svg": "/Projects/resume/static/media/linkedin.d342c2bcb143b629ca45894d346d8897.svg",
+    "static/media/Mail.svg": "/Projects/resume/static/media/Mail.bade1ffa20975c1ae1287cd814d78ade.svg",
+    "index.html": "/Projects/resume/index.html",
+    "main.dda24b27.css.map": "/Projects/resume/static/css/main.dda24b27.css.map",
+    "main.09ebd50d.js.map": "/Projects/resume/static/js/main.09ebd50d.js.map"
   },
   "entrypoints": [
     "static/css/main.dda24b27.css",
-    "static/js/main.50097915.js"
+    "static/js/main.09ebd50d.js"
   ]
 }
