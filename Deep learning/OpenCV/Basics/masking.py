@@ -4,9 +4,9 @@ import numpy as np
 img = cv.imread("Projects\Deep learning\OpenCV\Photos\cats.jpg")
 cv.imshow("Cats", img)
 
-blank = np.zeros(img.shape[:2], dtype='uint8')
+blank = np.zeros(img.shape[:2], dtype="uint8")
 
-mask = cv.circle(blank, (img.shape[1]//2, img.shape[0]//2), 100, 255, -1)
+mask = cv.circle(blank, (img.shape[1] // 2, img.shape[0] // 2), 100, 255, -1)
 cv.imshow("Mask", mask)
 
 masked = cv.bitwise_and(img, img, mask=mask)
