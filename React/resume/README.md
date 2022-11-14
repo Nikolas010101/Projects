@@ -1,1 +1,0 @@
-## Currículo virtual criado com React
