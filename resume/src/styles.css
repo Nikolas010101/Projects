@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Monocraft";
+    src: local("Monocraft"), url(./fonts/Monocraft.otf) format("opentype");
+}
+* {
+    font-family: Monocraft;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% auto;
+    height: 98vh;
+}
+.header {
+    height: 100%;
+    background-color: #356258;
+    grid-column: 1;
+    padding: 0px 30px 0px 30px;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    place-items: center;
+}
+.about {
+    color: #ffff;
+}
+.about-text {
+    color: #ffff;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 0px 3px 0px 3px;
+}
+.foto,
+.skill-img {
+    border-radius: 50%;
+    border: solid 4px black;
+    transition: 0.25s;
+    margin: 0px;
+    width: 200px;
+}
+.foto:hover,
+.skill-img:hover {
+    width: 220px;
+}
+.links {
+    color: #ffff;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    place-items: start center;
+    line-height: 100%;
+}
+.link-img-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    place-items: start;
+}
+.link-img {
+    width: 100px;
+    filter: invert();
+    transition: 0.25s;
+}
+.link-img:hover {
+    width: 110px;
+}
+.content {
+    background-color: #78909c;
+    border-radius: 0px 10px 10px 0px;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+}
+.basic-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+}
+.name {
+    color: #356258;
+    font-size: 3.5em;
+}
+.description {
+    color: #3a7267;
+    font-size: 1.5em;
+}
+.infos {
+    padding: 20px 0 0 0;
+    display: grid;
+    grid-template-rows: repeat(3, 48px);
+    place-items: start;
+}
+.info {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    column-gap: 10px;
+}
+.info-text {
+    color: #356258;
+    font-size: 1.3em;
+    height: 1em;
+    line-height: 0em;
+    text-decoration: none;
+}
+.sub-header {
+    font-size: 3em;
+    color: #356258;
+}
+.skills {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    place-items: center;
+    border-top: 5px solid #356258;
+}
+.skill {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+.skill-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px 20px 0px 20px;
+}
+.skill-title {
+    color: #356258;
+    font-size: 1.5em;
+}
+.skill-text {
+    color: #ffff;
+}
+.skills-education {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.skills-grid {
+    border-left: 5px solid #356258;
+}
+.level-active {
+    transition: 0.25s;
+}
+.level-active:hover {
+    filter: invert();
+}
